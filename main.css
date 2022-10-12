@@ -1,0 +1,28 @@
+@font-face {
+      font-family: 'Aspire SC Oblique';
+      src: url(./AspireSCOblique-Regular.woff2) format("woff2")
+}
+
+@font-face {
+      font-family: 'Lexend';
+      src: url(./lexend.woff2) format("woff2")
+}
+
+.hero {
+      font-family: 'Aspire SC Oblique', sans-serif;
+}
+
+.subfont {
+      font-family: 'Lexend', sans-serif;
+}
+
+*::selection {
+      color: inherit;
+      background-color: rgba(200, 200, 200, 0.25);
+}
+
+*:focus { outline: none !important;}
+
+body {
+      overflow-x: hidden !important;
+}
